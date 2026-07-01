@@ -1,0 +1,149 @@
+body {
+    background-color: #eeeeee;
+    font-family: Arial;
+    margin: 0;
+}
+main {
+    width: 90%;
+    margin: auto;
+}
+.botao-tema {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+}
+.botao-tema:hover {
+    background-color: gray;
+}
+.banner-topo img {
+    width: 100%;
+}
+.secao-simples {
+    background-color: white;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 15px;
+}
+.secao-simples h2 {
+    color: blue;
+    font-size: 30px;
+}
+.secao-simples p {
+    color: black;
+    font-size: 20px;
+}
+.secao-simples li {
+    color: black;
+    font-size: 20px;
+}
+.secao-simples label {
+    color: black;
+    font-size: 20px;
+}
+.secao-simples a {
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.secao-simples a:hover {
+    background-color: darkblue;
+}
+#formContato {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+#formContato input {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#formContato button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+}
+#formContato button:hover {
+    background-color: darkblue;
+}
+#mensagem {
+    color: black;
+    font-size: 20px;
+}
+.secao-projeto {
+    background-color: white;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 15px;
+    display: flex;
+}
+.texto-projeto {
+    width: 40%;
+}
+.texto-projeto h2 {
+    color: blue;
+    font-size: 30px;
+}
+.texto-projeto p {
+    color: black;
+    font-size: 20px;
+}
+.imagens-projeto {
+    width: 60%;
+}
+.imagens-projeto img {
+    width: 45%;
+    height: auto;
+    margin: 5px;
+    border-radius: 10px;
+}
+.imagens-projeto img.imagem-retrato {
+    width: 35%;
+    height: auto;
+}
+.imagens-projeto img.imagem-grande {
+    width: 85%;
+    height: auto;
+}
+.card-certificado {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.card-certificado h3 {
+    color: blue;
+    font-size: 25px;
+}
+.card-certificado p {
+    color: black;
+    font-size: 20px;
+}
+.botao-certificado {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.botao-certificado:hover {
+    background-color: darkblue;
+}
+.rodape-simples {
+    background-color: #dddddd;
+    text-align: center;
+    padding: 20px;
+}
+.rodape-simples p {
+    color: black;
+    font-size: 18px;
+}
